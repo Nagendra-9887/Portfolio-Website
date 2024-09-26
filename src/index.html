@@ -1,11 +1,424 @@
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
+
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My-Port-Folio-Website</title>
+    <title>My Porfolio Website</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
+
 <body>
-    
+    <!---light or dark theme button-->
+<div class="theme-btn">
+    <i class=" fas fa-moon"></i>
+    <i class=" fas fa-sun"></i>
+</div>
+    <!--header-->
+    <header class="sticky">
+        <div class="nav-bar">
+            <p class="Logo"><img class="Logo-img"  src="src/logo.png" alt="" style="width: 80px; height: 40px;"> Nagendra</p>
+            <div class="navigation">
+                <div class="nav-items">
+                    <div class="nav-close-btn"></div>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#portfolio">PortFolio</a>
+                    <a href="#contact">Contact</a>            
+                </div>
+            </div>
+            <div class="nav-menu-btn"></div>
+        </div>
+    </header>
+
+    <!--home section-->
+    <section class="home flex-center" id="home">
+        <div class="home-container">
+            <div class="info">
+                <h2>Hi, I am Nagendra Kakarla</h2>
+                <h3>Backend-Developer</h3>
+                <p> I creatsdgknsiuhgfuiswgn skjnvkjsnvnjsssssjj ksnvshvuiu skdvhbiksv siudhdvisbnvf ksjbdviushv
+                    sjdvbgbgsuiv</p>
+                <a href="#contact" class="btn" id="btn">Hire Me <i class="fas fa-arrow-circle-right"></i></a>
+                <div class="media-icons">
+                    <a href="https://github.com/Kakarla-Nagendra" target="_blank"><i class="github fab fa-github"></i></a>
+
+                    <a href="https://www.instagram.com/mr_.ns..200/?utm_source=qr&r=nametag" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/nagendra-kakarla-21109331a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"  target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="home-img">
+                <img src="src\bg-final.png" alt="" class="bg-image"
+                    style="background-color: rgb(14, 68, 68); border-radius: 25px;">
+            </div>
+        </div>
+        <a href="#about" class="scroll-down">Scroll Down <i class="fas fa-arrow-down"></i></a>
+
+    </section>
+
+
+    <!--about section-->
+    <section class="about section" id="about">
+        <div class="container flex-center">
+            <h1 class="section-title-1">About Me</h1>
+            <h1 class="section-title-2">About Me</h1>
+            <div class="content flex-center">
+                <div class="about-img">
+                    <img src="src\about-img.png" alt=""
+                        style="background-color:rgb(121, 190, 222); border-radius: 100px;">
+                </div>
+                <div class="about-info">
+                    <div class="description">
+                        <h3>I'm Nagendra</h3>
+                        <h4>A Backend Java Developer </h4>
+                        <p>sdvkbjasdigewjisnwk bwiufhiuw uisdhffiuw iuwegfuy iuewuhiwe roirjgowbf iwuheef wjygfuywgerfrj
+                            eeufgj ugsafuiaeeft87bd wugfwuscnianfaubyfbyuafnjiqadd</p>
+                    </div>
+                    <ul class="professonal-list"></ul>
+                    <li class="list-item">
+                        <h3>Fresher</h3>
+                        <p>Java Developer,I have a Wide Knowledge in Core Java and its Frame Work SpringBoot.</p>
+                    </li>
+                    <li class="list-item">
+                        <h3>Email</h3>
+                        <a href="mailto:Nagendra143bujji@gmail.com">Nagendra143bujji@gmail.com</a>
+                    </li>
+                    <li class="list-item">
+                        <h3>Leetcode</h3>
+                        <a href="https://leetcode.com/u/Nagendra_kakarla/" class="leetcode"
+                            target="_blank">Nagendra_kakarla</a>
+                    </li>
+                    <a href="src/nagendra_resume.pdf" download  target="_blank" class="btn">Download CV <i class="fas fa-download"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--skills section-->
+    <section class="skills section" id="skills">
+        <div class="container flex-center">
+            <h1 class="section-title-1">Skills</h1>
+            <h2 class="section-title-2">Skills</h2>
+            <div class="skills_container container">
+                <div>
+                    <!--skills section-1-->
+                    <div class="skills_content skills_open">
+                        <div class="skills_header">
+                            <i class="fas fa-code skills_icon"></i>
+                            <div>
+                                <h1 class="skills_title">Fronted Skills </h1>
+                            </div>
+                            <i class="fa-solid fa-angles-down skills_arrow"></i>
+                        </div>
+                        <div class="skills_list">
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">HTML <i class="fa-brands fa-html5 skill_logo1"></i></h3>
+                                    <span class="skills_number">90%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percent skills_html"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">CSS <i class="fa-brands fa-css3-alt skill_logo2"></i></h3>
+                                    <span class="skills_number">70%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percent skills_css"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">Java Script <i class="fa-brands fa-js skill_logo3"></i></h3>
+                                    <span class="skills_number">65%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percent skills_js"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">React <i class="fa-brands fa-react skill_logo4"></i></h3>
+                                    <span class="skills_number">50%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percent skills_react"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">BootStrap <i
+                                            class="fa-brands fa-bootstrap skill_logo5"></i></i></h3>
+                                    <span class="skills_number">45%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percent skills_bs"></span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--skills section-2-->
+                    <div class="skills_content skills_close">
+                        <div class="skills_header">
+                            <i class="fa-solid fa-server skills_icon"></i>
+                            <div>
+                                <h1 class="skills_title">Backend Skills</h1>
+                            </div>
+                            <i class="fa-solid fa-angles-down skills_arrow"></i>
+                        </div>
+                        <div class="skills_list">
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">Core Java <i class="fa-brands fa-java skill_logo6"></i>
+                                    </h3>
+                                    <span class="skills_number">85%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percent skills_java"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">Advanced Java & DSA <i
+                                            class="fa-brands fa-java skill_logo6"></i></h3>
+                                    <span class="skills_number">70%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percent skills_DSA"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">SpringBoot </h3>
+                                    <span class="skills_number">50%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percent skills_boot"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">Spring MVC</h3>
+                                    <span class="skills_number">55%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percent skills_MVC"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--skills section-3-->
+                    <div class="skills_content skills_close">
+                        <div class="skills_header">
+                            <i class="fa-solid fa-database skills_icon"></i>
+                            <div>
+                                <h1 class="skills_title">DataBase Skills</h1>
+                            </div>
+                            <i class="fa-solid fa-angles-down skills_arrow"></i>
+                        </div>
+                        <div class="skills_list">
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">MySQL</i> </h3>
+                                    <span class="skills_number">85%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percent skills_sql"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">NoSQL(MongoDB)</i> </h3>
+                                    <span class="skills_number">60%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percent skills_mdb"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--skills section-4-->
+                    <div class="skills_content skills_close">
+                        <div class="skills_header">
+                            <i class="fa-solid fa-user-tie skills_icon"></i>
+                            <div>
+                                <h1 class="skills_title">Leadership and Collaboration Skill</h1>
+                            </div>
+                            <i class="fa-solid fa-angles-down skills_arrow"></i>
+                        </div>
+                        <div class="skills_list">
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">Problem-solving</h3>
+                                    <span class="skills_number">75%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percent skills_ps"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">Communication </h3>
+                                    <span class="skills_number">80%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percent skills_Communcation"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name"> Decision-making</h3>
+                                    <span class="skills_number">70%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percent skills_decision"></span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <div class="skills_titles">
+                                    <h3 class="skills_name">Leadership</h3>
+                                    <span class="skills_number">75%</span>
+                                </div>
+                                <div class="skills_bar">
+                                    <span class="skills_percent skills_leadership"></span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+    <!--portfolio or projects section-->
+    <section class="portfolio section" id="portfolio">
+        <div class="container flex-center">
+            <h1 class="section-title-1">portfolio</h1>
+            <h2 class="section-title-2">Porfolio</h2>
+            <div class="work-list">
+                <div class="work">
+                    <img src="src/portfo.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Porfolio Website</h3>
+                        <p>The app is tells about my skills and my projects ,,and also it showcase my coding skills by
+                            adding leetcode profile and project links</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="src/chat.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The Application is useful for contacting ner persons and increase te=he network or circle by
+                            knowing new friends and chatting with them</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                        <h5>Currently Working on this</h5>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="src/Hotel_Booking.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Hotel Booking App</h3>
+                        <p>The Application is very useful to book the hotels and rooms when we went for tours or trips
+                            with family or friends </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                        <h5>Currently Working on this</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!--contact section-->
+    <div class="contact section" id="contact">
+        <div class="container flex-center">
+          <h1 class="section-title-1">Contact Me</h1>
+          <h2 class="section-title-2">Contact Me</h2>
+          <div class="content">
+            <div class="contact-left">
+              <h2>Get in touch</h2>
+              <ul class="contact-list">
+                <li>
+                  <h3 class="items-title"><i class="fas fa-phone"></i> Phone</h3>
+                  <span>+91 93918 45815</span>
+                </li>
+                <li>
+                  <h3 class="items-title"><i class="fas fa-envelope"></i> Email Address</h3>
+                  <span><a href="mailto:nagendra143bujji@gmail.com">Nagendra143bujji@gmail.com</a></span>
+                </li>
+                <li>
+                  <h3 class="items-title"><i class="fas fa-map-marker-alt"></i> Address</h3>
+                  <span>Bangalore BTM Layout</span>
+                </li>
+              </ul>
+            </div>
+            <div class="contact-right">
+              <p><span>Ready to Work</span></p>
+              <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+                <div class="first-row">
+                  <input type="hidden" name="access_key" value="c1b79c8a-f4eb-4f7d-95fa-79e3dd9b0ab2">
+                  <input type="text" name="name" placeholder="eg:Nagendra" required>
+                </div>
+                <div class="second-row">
+                  <input type="email" name="email" placeholder="eg:abc@xyz.com" required>
+                  <input type="text" name="subject" placeholder="subject" required>
+                </div>
+                <div class="third-row">
+                  <textarea name="message" id="" rows="8" placeholder="Message" required></textarea>
+                </div>
+                  <button  class="btn" type="submit">Send Message <i class="fas fa-paper-plane"></i></button>
+                 
+              </form>
+            </div>
+            <div class="scroll-top" id="home">
+              <a href="#home"><i class="fas fa-arrow-up"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+   
+    <!--footer-->
+    <footer>
+        <div class="footer-container">
+            <div class="about-group">
+                <h2>Nagendra</h2>
+                <p>Full Stack Developer</p>
+                <a href="#about">About Me</a>
+            </div>
+            <div class="hr">
+                <div class="info group">
+                    <h3>More</h3>
+                    <ul>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div style="margin-right: 10px;">
+                <h3>Follow</h3>
+                <ul>
+                    <li><a href=""><i class="fab fa-github"></i></a></li>
+                    <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="foote-copyright">
+            <p>© by Nagendra, All rights reserved</p>
+        </div>
+    </footer>
+    <!--external scripts-->
+    <script src="actions.js"></script>
 </body>
+
 </html>
